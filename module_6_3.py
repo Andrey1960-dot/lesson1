@@ -2,11 +2,11 @@ import random
 
 class Animal:
     def __init__(self, speed):
-        self.speed = speed
-        self.live = True
-        self.sound = None
-        self._DEGREE_OF_DANGER = 0
-        self._cords = [0, 0, 0]
+     self.live = True
+     self.sound = None
+     self._DEGREE_OF_DANGER = 0
+     self._cords = [0, 0, 0]
+     self.speed = speed
 
     def move(self, dx, dy, dz):
         new_x = self._cords[0] + dx * self.speed
